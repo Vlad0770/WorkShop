@@ -117,8 +117,12 @@ body {
     }
 
     .second_container {
-        
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
 
+        .service {
 
         .services {
             margin-top: 70px;
@@ -132,17 +136,132 @@ body {
         }
 
         .vector {
-            margin: -50px 988px 4px 606px;
-            
+            display: flex;
+            justify-content: start;
+            margin-top: -50px;
         }
-    
+        }
         .container_png {
             display: flex;
             flex-direction: row;
-            align-items: center;
             
             
+            
+            .container1 {
+                background: #FFFFFF;
+                box-shadow: 0px 10px 30px rgba(16, 51, 30, 0.1);
+                border-radius: 30px;
+                width: 385px;
+                height: 504px;
+
+                .head5 {
+                    color: #0D4D14;
+                    font-weight: 900;
+                    font-size: 16px;
+                    line-height: 24px;
+                    margin: 30px 30px 10px 30px;
+                }
+
+                .paragraph1 {
+                    color: #0D4D14;
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 20px;
+                    padding: 0px 30px 30px 30px;
+                }
+            }
+
+            .container2 {
+                background: #FFFFFF;
+                box-shadow: 0px 10px 30px rgba(16, 51, 30, 0.1);
+                border-radius: 30px;
+                width: 385px;
+                height: 504px;
+                margin: 0px 22px 50px 22px;
+
+                .head5 {
+                    color: #0D4D14;
+                    font-weight: 900;
+                    font-size: 16px;
+                    line-height: 24px;
+                    margin: 30px 30px 10px 30px;
+                }
+
+                .paragraph1 {
+                    color: #0D4D14;
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 20px;
+                    padding: 0px 30px 30px 30px;
+                }
+            }
+
+            .container3 {
+                background: #FFFFFF;
+                box-shadow: 0px 10px 30px rgba(16, 51, 30, 0.1);
+                border-radius: 30px;
+                width: 385px;
+                height: 504px;
+
+                .head5 {
+                    color: #0D4D14;
+                    font-weight: 900;
+                    font-size: 16px;
+                    line-height: 24px;
+                    margin: 30px 30px 10px 30px;
+                }
+
+                .paragraph1 {
+                    color: #0D4D14;
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 20px;
+                    padding: 0px 30px 30px 30px;
+                }
+            }
         }
 
+        .help_button2 {
+            padding: 0;
+            background-color: rgba(255, 255, 255, 1);
+            color: #48924F;
+            background: #FFFFFF;
+            box-shadow: 0px 16px 30px rgba(50, 175, 100, 0.15);
+            border-radius: 35px;
+            width: 180px;
+            height: 70px;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 27px;
+            border: none;
+            margin-bottom: 70px;
+
+            &:hover {
+                background-color: black;
+                box-shadow: 10px;
+                width: 250px;
+                transition: width .5s linear;
+            }
+        }
+        .about_us {
+            
+            .about {
+                margin: 0;
+                font-weight: 800;
+                font-size: 64px;
+                line-height: 96px;
+                color: #828282;
+                display: flex;
+                justify-content: center;
+            }
+
+            .svg2 {
+                display: flex;
+                justify-content: end;
+                margin-top: -50px;
+                margin-left: 280px;
+            }
+        }
+        
     }
 }
