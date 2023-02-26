@@ -1,1 +1,119 @@
-/*# sourceMappingURL=style.css.map */
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  max-width: 1920px;
+}
+body .main {
+  background-image: url(Rectangle\ 256.png);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+body .main .main_title {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 50px;
+  width: 464px;
+}
+body .main .main_title .main_image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 77px;
+}
+body .main .main_title .main_image .img1 {
+  height: 29px;
+  width: 75px;
+  margin-bottom: -10px;
+}
+body .main .main_title .main_image .img2 {
+  height: 42px;
+  width: 50px;
+  margin-bottom: -10px;
+}
+body .main .main_title .main_image .img3 {
+  height: 29px;
+  width: 75px;
+}
+body .main .main_title .main_text {
+  color: #FFFFFF;
+  font-weight: 800;
+  display: flex;
+  flex-direction: column;
+  margin-top: 58px;
+  margin-left: 20px;
+}
+body .main .main_title .main_text .text1 {
+  font-size: 60px;
+}
+body .main .main_title .main_text .text2 {
+  font-size: 27px;
+  margin-top: -23px;
+  letter-spacing: 6px;
+}
+body .main .main_button {
+  width: 375px;
+  height: 64px;
+  color: #FFFFFF;
+  background: rgba(0, 0, 0, 0.5);
+  border: none;
+  border-radius: 59px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  margin-bottom: 10px;
+  padding: 19px 48px 19px 48px;
+}
+body .main .main_button:hover {
+  background-color: black;
+}
+body .main .title {
+  margin: 0;
+  display: flex;
+  text-align: center;
+  color: #FFFFFF;
+  font-weight: 900;
+  font-size: 144px;
+  line-height: 134px;
+  text-shadow: 0px 0px 40px rgba(0, 0, 0, 0.5);
+  margin-bottom: 100px;
+}
+body .main .help_button {
+  background-color: rgb(255, 255, 255);
+  color: #48924F;
+  box-shadow: rgba(16, 51, 30, 0.5);
+  background: radial-gradient(50% 50% at 50% 50%, #FFFFFF 0%, #F9F9F9 100%);
+  border-radius: 35px;
+  width: 180px;
+  height: 70px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+  border: none;
+  margin-bottom: 116px;
+}
+body .main .help_button:hover {
+  box-shadow: 10px;
+  width: 250px;
+  transition: width 0.5s linear;
+}
+body .second_container .services {
+  margin-top: 70px;
+  margin-bottom: 0;
+  color: rgb(130, 130, 130);
+  font-weight: 800;
+  font-size: 64px;
+  line-height: 96px;
+  display: flex;
+  justify-content: center;
+}
+body .second_container .vector {
+  margin: -50px 988px 4px 606px;
+}
+body .second_container .container_png {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}/*# sourceMappingURL=style.css.map */
