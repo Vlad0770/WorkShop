@@ -244,7 +244,8 @@ body {
             }
         }
         .about_us {
-            
+            margin-bottom: 50px;
+
             .about {
                 margin: 0;
                 font-weight: 800;
@@ -262,6 +263,135 @@ body {
                 margin-left: 280px;
             }
         }
+    }
+
+    .About-Us {
+        width: 100%;
+        background-image: url(Rectangle\ 259.png);
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+        .section_about {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            text-align: center;
+            margin-bottom: 50px;
         
+            .paragraph4 {
+                width: 360px;
+                height: 408px;
+                margin-top: 154px;
+                font-weight: 600;
+                font-size: 18px;
+                line-height: 24px;
+                color: #FFFFFF;
+            }
+
+            .paragraph5 {
+                width: 360px;
+                height: 408px;
+                margin: 154px 60px 0px 60px;
+                font-weight: 600;
+                font-size: 18px;
+                line-height: 24px;
+                color: #FFFFFF;
+            }
+
+            .paragraph6 {
+                width: 360px;
+                height: 408px;
+                margin-top: 154px;
+                font-weight: 600;
+                font-size: 18px;
+                line-height: 24px;
+                color: #FFFFFF;
+            }
+        }
+
+        .help_button3 {
+            
+            padding: 0;
+            background-color: rgba(255, 255, 255, 1);
+            color: #48924F;
+            background: #FFFFFF;
+            box-shadow: 0px 16px 30px rgba(50, 175, 100, 0.15);
+            border-radius: 35px;
+            width: 180px;
+            height: 70px;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 27px;
+            border: none;
+            margin-bottom: 50px;
+            
+            &:hover {
+                box-shadow: 10px;
+                width: 250px;
+                transition: width .5s linear;
+            }
+        }
+    }
+
+    .Testymonials {
+        display: grid;
+
+        .Test {
+            display: flex;
+            justify-content: center;
+            font-weight: 800;
+            font-size: 64px;
+            line-height: 96px;
+            color: #828282;
+            margin-bottom: 70px;
+        }
+        
+        .group {
+            display: grid;
+            grid-template-columns: 1fr 974px;
+            grid-column-gap: 45px;
+            grid-row-gap: 45px;
+            margin-left: 350px;
+            margin-bottom: 50px;
+
+            .block1 {
+                display: flex;
+                flex-wrap: wrap;
+                
+                width: 577px;
+                height: 233px;
+                border: 1px solid #6CB981;
+                border-radius: 40px;
+                
+
+                .image {
+                    height: 80px;
+                    width: 80px;
+                    margin: 30px 14px 0px 30px;
+                    
+                }
+
+                .name {
+                    margin: 0;
+                    margin-top: 30px;
+                    font-weight: 700;
+                    font-size: 18px;
+                    line-height: 22px;
+                    color: #6CB981;
+                    
+                }
+
+                .test_p {
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 22px;
+                    color: #0D4C14;
+                    width: 423px;
+                    height: 110px;
+                    
+                }
+            }
+        }
     }
 }
