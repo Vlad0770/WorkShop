@@ -311,7 +311,6 @@ body {
         }
 
         .help_button3 {
-            
             padding: 0;
             background-color: rgba(255, 255, 255, 1);
             color: #48924F;
@@ -393,5 +392,166 @@ body {
                 }
             }
         }
+    }
+
+    .contact_us {
+        
+
+        .contact {  
+            display: flex;
+            justify-content: center;
+            margin: 0px;
+            margin-top: 50px;
+            margin-bottom: 70px;
+            color: #828282;
+            font-weight: 800;
+            font-size: 64px;
+            line-height: 96px;
+        }
+
+        .all_form {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-bottom: 50px;
+
+            .form {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin-right: 100px;
+
+
+                .form_name {
+                    font-size: 18px;
+                    line-height: 27px;
+                    text-align: center;
+                    border: none;
+                    margin-bottom: 14px;
+                    width: 374px;
+                    height: 56px;
+                    background: #9FDEA9;
+                    border-radius: 61px;
+
+                    &:invalid:after {
+                        box-shadow: 0 0 5px 1px red;
+                    }
+                }
+
+                .form_surname {
+                    font-size: 18px;
+                    line-height: 27px;
+                    text-align: center;
+                    border: none;
+                    margin-bottom: 14px;
+                    width: 374px;
+                    height: 56px;
+                    background: #9FDEA9;
+                    border-radius: 61px;
+                }
+
+                .form_phone {
+                    font-size: 18px;
+                    line-height: 27px;
+                    text-align: center;
+                    border: none;
+                    margin-bottom: 14px;
+                    width: 374px;
+                    height: 56px;
+                    background: #9FDEA9;
+                    border-radius: 61px;
+                }
+
+                .form_button {
+                    font-weight: 700;
+                    font-size: 18px;
+                    line-height: 27px;
+                    background-color: #FFFFFF;
+                    text-align: center;
+                    width: 168px;
+                    height: 56px;
+                    border: 3px solid #4DB96B;
+                    border-radius: 61px;
+
+                    &:hover {
+                        box-shadow: 10px;
+                        width: 250px;
+                        transition: width .5s linear;
+                    }
+                }
+            }
+        }
+
+        .second_form {
+            margin-top: 30px;
+
+
+            .email {
+                margin-bottom: 30px;
+
+                .img_email {
+                    margin-right: 20px;
+                }
+
+                .email1 {
+                    color: #333333;
+                    font-weight: 500;
+                    font-size: 14px;
+                    line-height: 17px;
+                    text-decoration: none;
+
+                    &:hover {
+                        border-bottom: 3px solid #4DB96B;
+                        color: black;
+                    }
+                }
+            }
+
+            .phone {
+                margin-bottom: 30px;
+
+                .img_phone {
+                    margin-right: 20px;
+                }
+
+                .phone1 {
+                    font-weight: 500;
+                    font-size: 14px;
+                    line-height: 17px;
+                    color: #333333;
+                    text-decoration: none;
+
+                    &:hover {
+                        border-bottom: 3px solid #4DB96B;
+                        color: black;
+                    }
+                }
+            }
+
+            .address {
+
+                .img_geo {
+                    margin-right: 20px;
+                }
+
+                .geo {
+                    font-weight: 500;
+                    font-size: 14px;
+                    line-height: 17px;
+                    color: #333333;
+                    text-decoration: none;
+
+                    &:hover {
+                        border-bottom: 3px solid #4DB96B;
+                        color: black;
+                    }
+                }
+            }
+        }
+    }
+
+    .footer {
+        height: 145px;
+        background-color: rgba(50, 75, 41, 1);
     }
 }
